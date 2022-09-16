@@ -347,3 +347,27 @@ a:focus-visible {
 		display: inline;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.frame__title {
+		opacity: 0%;
+	}
+	.frame__demos {
+		opacity: 0%;
+	}
+	.footer {
+		color: var(--color-text-alt);
+		background: var(--color-bg-alt);
+		height: 100vh;
+		font-size: 2vh;
+		line-height: 1.2;
+		position: relative;
+		z-index: 200;
+		text-transform: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 40px;
+		text-align: justify
+	}
+}

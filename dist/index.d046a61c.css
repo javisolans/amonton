@@ -339,4 +339,26 @@ a:focus-visible {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .frame__title, .frame__demos {
+    opacity: 0;
+  }
+
+  .footer {
+    color: var(--color-text-alt);
+    background: var(--color-bg-alt);
+    height: 100vh;
+    z-index: 200;
+    text-transform: none;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 2vh;
+    line-height: 1.2;
+    display: flex;
+    position: relative;
+  }
+}
+
 /*# sourceMappingURL=index.d046a61c.css.map */
