@@ -359,7 +359,7 @@ a:focus-visible {
 		color: var(--color-text-alt);
 		background: var(--color-bg-alt);
 		height: 100vh;
-		font-size: 2vh;
+		font-size: 3vh;
 		line-height: 1.2;
 		position: relative;
 		z-index: 200;
